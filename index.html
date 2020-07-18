@@ -7,6 +7,7 @@
   <script src="https://kit.fontawesome.com/3212c86140.js" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;700&family=Open+Sans&display=swap" rel="stylesheet"> 
   <link rel="icon" href="./assets/favicon.ico" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="./styles/styles.css">
   <title>Rojhan Paydar</title>
 </head>
@@ -24,8 +25,10 @@
       </ul>
     </nav>
   <header class="flexContainer">
-    <h1>Hello, my name is Rojhan Paydar</h1>
-    <p>* but you can call me Ro</p>
+      <div data-aos="fade-in"  data-aos-easing="ease-in-out" data-aos-delay=".1">
+        <h1>Hello, my name is Rojhan Paydar</h1>
+        <p>* but you can call me Ro</p>
+      </div>
   </header>
   <section tabindex="1" id="about" class="wrapper aboutMeSection aboutMeCard">
     <div class="flexContainer">
@@ -57,13 +60,18 @@
   <section tabindex="2"class="resumeBackgroundColor">
     <!-- v title of section v -->
     <!-- <h2>My Resume</h2> -->
-    <h3>My Expertise</h3>
+    <div data-aos="fade-in"  data-aos-easing="ease-in-out" data-aos-delay=".1">
+      <h3>My Expertise</h3>
+    </div>
     <!-- ^ title of section ^ -->
 
     <!-- top half of section -->
+    
      <ul class="skillsSectionWhole">
-        <li><h4>Coding Skills</h4></li>
-        <div class="skillsCard">
+       <div data-aos="fade-in"  data-aos-easing="ease-in-out" data-aos-delay=".1">
+         <li><h4>Coding Skills</h4></li>
+       </div>
+        <div class="skillsCard" data-aos="fade-in"  data-aos-easing="ease-in-out" data-aos-delay=".1">
         <li>
           HTML5
           <i class="fab fa-html5"></i>
@@ -161,6 +169,7 @@
  
   </section>
   <section tabindex="3" id="portfolio" class="projectBackground">
+    <div data-aos="fade-in"  data-aos-easing="ease-in-out" data-aos-delay=".1">
     <h2>Portfolio</h2>
     <div class="flexContainer project">
       <ul class="resumeSectionHalf">
@@ -247,6 +256,7 @@
       </div>
     </div>
   </ul>
+  </div>
 </div>
   </section>
     <section tabindex="4" id="resume"  class="hireMeBackgroundImage">
@@ -255,6 +265,7 @@
     </section>
 
   <section tabindex="5" id="blog" class="resumeBackgroundColor">
+    <div data-aos="fade-in"  data-aos-easing="ease-in-out" data-aos-delay=".1">
       <h2>Blogs</h2>
         <h3>My Articles</h3>
           <div class="flexContainer">
@@ -264,8 +275,10 @@
             <a class="blogCard" target="_blank" href="https://medium.com/@rojhanpaydar/from-curious-to-coder-my-path-to-web-development-2c0b7b3cd499"><img src="./assets/blog3.jpeg" alt="Rojhan Paydar Blog Post about the journey into web development and to Juno College"><li><p>From Curious to Coder — My Path to Web Development</p></li></a>
         </ul>
       </div>
+      </div>
 </section>
 <section tabindex="6" id="videos" class="videoSection">
+  <div data-aos="fade-in"  data-aos-easing="ease-in-out" data-aos-delay=".1">
   <h3>My Videos</h3>
   <div class="videoFlexContainer">
     <div class="videoCard">
@@ -283,9 +296,10 @@
     <p>About: Rojhan Paydar demonstrates a walk through of her creative "rock paper scissors" game, Battle of the Babies. She shows a little bit of the logic behind the app, as well as demonstrates how the app functions.</p>
   </div>
 </div>
-
-    </section>
+</div>
+</section>
   <section tabindex="7" id="contact">
+    <div data-aos="fade-in"  data-aos-easing="ease-in-out" data-aos-delay=".1">
     <h2>Say Hello</h2>
       <h3>Contact</h3>
         <div class="flexContainer contact">
@@ -301,6 +315,7 @@
         </a>
       </ul>
     </div>
+    </div>
           <!-- Calendly inline widget begin -->
 <!-- <div class="calendly-inline-widget" data-url="https://calendly.com/rojhanpaydar" style="min-width:320px;height:630px;"></div>
 <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script> -->
@@ -315,5 +330,9 @@
 </body>
     <script src='https://code.jquery.com/jquery-3.2.1.min.js' integrity='sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4='crossorigin='anonymous'></script>
     <script src="./app.js"></script>
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>

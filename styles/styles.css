@@ -1165,7 +1165,7 @@ h1 {
     margin-left: 5px;
   }
   nav img {
-    width: 50px;
+    display: none;
   }
   footer p:nth-child(2) {
     color: #756d20;

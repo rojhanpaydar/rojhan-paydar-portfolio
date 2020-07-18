@@ -1,0 +1,87 @@
+// resume styles go here
+
+.projectImage {
+  position: relative;
+  opacity: 0.5;
+  padding-bottom: 5%;
+}
+
+.centerTextOnImage {
+  position: absolute;
+  top: 30%;
+}
+
+.projectCard {
+  background-color: $white;
+  width: 100%;
+  padding: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border: 10px solid $grey;
+  color: $paragraphColor;
+  transition: all 0.5s ease-in-out;
+  bottom: 0;
+  height: 750px;
+}
+
+// .projectCard {
+//   border-left: 10px solid $orange;
+// }
+// box-shadow ???
+
+// fix the a padding
+
+.projectCard h2 {
+  // margin-top: 5%;
+  color: $black;
+  background-color: $white;
+}
+
+.resumeCard li {
+  text-align: left;
+  margin: 2%;
+}
+
+.resumeCard li:first-child {
+  margin-bottom: 2%;
+  @include titleText(25);
+  color: $darkGrey;
+}
+
+.resumeCard li:nth-child(2) {
+  background-color: $orange;
+  color: $white;
+  font-size: 15px;
+  padding: 1%;
+  border-radius: 8px;
+}
+
+.resumeCard:hover {
+  position: relative;
+  box-shadow: 0px 10px 20px $shadowColor;
+  bottom: 2px;
+}
+
+.resumeSectionHalf {
+  width: 50%;
+  padding: 2%;
+}
+
+// THE BELOW CODE MAKES THE TEXT SCROLL
+// .sitemessage {
+//   display: inline-block;
+//   white-space: nowrap;
+//   animation: floatText 15s infinite linear;
+//   padding-left: 100%; /*Initial offset*/
+// }
+// .sitemessage:hover {
+//   animation-play-state: paused;
+// }
+// @keyframes floatText {
+//   to {
+//     transform: translateX(-100%);
+//   }
+// }

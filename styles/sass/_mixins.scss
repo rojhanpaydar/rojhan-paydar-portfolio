@@ -1,0 +1,12 @@
+@mixin titleText($sizeValue) {
+  font-size: $sizeValue * 1px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+@mixin bodyText($sizeValue) {
+  font-size: $sizeValue * 1px;
+  font-family: "Open Sans", sans-serif;
+}
+
+// font-family: 'Josefin Sans', sans-serif;
+// font-family: 'Open Sans', sans-serif; (paragraph tags)

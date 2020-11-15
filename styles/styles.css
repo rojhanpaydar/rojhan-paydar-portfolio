@@ -1128,8 +1128,13 @@ h1 {
 
 @media (max-width: 470px) {
   header {
-    background-size: contain;
-    height: 70vh;
+    background-size: cover;
+    height: 100vh;
+    background-position: right;
+  }
+  .headerTextSpace {
+    margin-left: 22%;
+    margin-bottom: 80%;
   }
   nav a li {
     font-size: 16px;
@@ -1147,8 +1152,8 @@ h1 {
     height: 700px;
   }
   h1 {
-    font-size: 30px;
-    width: 50%;
+    font-size: 18px;
+    width: 90%;
   }
   header p {
     font-size: 20px;

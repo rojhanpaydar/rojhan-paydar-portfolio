@@ -816,6 +816,10 @@ h1 {
   margin-left: 2%;
 }
 
+.aboutMeHeader img {
+  width: 500px;
+}
+
 .skillsSectionWhole {
   width: 100%;
   display: -webkit-box;
@@ -1160,6 +1164,10 @@ h1 {
 }
 
 @media (max-width: 470px) {
+  header {
+    background-size: contain;
+    height: 60vh;
+  }
   nav a li {
     font-size: 16px;
     margin-left: 5px;

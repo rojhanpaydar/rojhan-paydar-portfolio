@@ -1,5 +1,9 @@
 // entering tablet sizes
 @media (max-width: 830px) {
+  .flexIcon {
+    margin-bottom: 8%;
+  }
+
   .flexContainer {
     display: flex;
     flex-direction: column;

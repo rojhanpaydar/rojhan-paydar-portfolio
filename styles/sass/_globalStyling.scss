@@ -22,6 +22,7 @@ a:active {
   color: $hoverColor;
   cursor: pointer;
 }
+
 h2 {
   @include titleText(20);
   color: $greyh2;
@@ -248,38 +249,6 @@ button:hover {
 .container {
   position: relative;
 }
-
-// .image {
-//   opacity: 1;
-//   display: block;
-//   width: 100%;
-//   height: auto;
-//   transition: 0.5s ease;
-//   backface-visibility: hidden;
-// }
-
-// .middle {
-//   transition: 0.5s ease;
-//   opacity: 0;
-//   position: absolute;
-//   top: 30%;
-//   left: 50%;
-//   width: 100%;
-//   transform: translate(-50%, -50%);
-//   -ms-transform: translate(-50%, -50%);
-//   text-align: center;
-// }
-
-// .container:hover .image,
-// .containter:focus-within .image,
-// .container:active .image {
-//   opacity: 0;
-// }
-
-// .container:hover .middle,
-// .container:active .middle {
-//   opacity: 1;
-// }
 
 .text {
   color: $black;

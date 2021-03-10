@@ -54,7 +54,7 @@ header p {
 }
 
 h1 {
-  @include titleText(50);
+  @include titleText(80);
   font-weight: normal;
   width: 40%;
 }
@@ -63,4 +63,36 @@ header p,
 h1 {
   color: $white;
   margin-left: 2%;
+}
+
+// testing underline load
+#sec {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 3px;
+}
+
+@-webkit-keyframes border {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 90%;
+  }
+}
+
+#sec:after {
+  content: "";
+  display: block;
+  margin: auto;
+  height: 60px;
+  width: 0px;
+  background: blue;
+  -webkit-animation-name: border; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+  animation-name: border;
+  animation-duration: 1s;
+  animation-delay: 4s;
+  animation-fill-mode: forwards;
 }

@@ -34,7 +34,7 @@ figure {
 
 hr {
   -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  box-sizing: content-box;
   height: 0;
   overflow: visible;
 }
@@ -53,7 +53,7 @@ abbr[title] {
   border-bottom: none;
   text-decoration: underline;
   -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+  text-decoration: underline dotted;
 }
 
 b,
@@ -169,7 +169,7 @@ fieldset {
 
 legend {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   color: inherit;
   display: table;
   max-width: 100%;
@@ -189,7 +189,7 @@ textarea {
 [type="checkbox"],
 [type="radio"] {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding: 0;
 }
 
@@ -252,7 +252,7 @@ html {
 *:before,
 *:after {
   -webkit-box-sizing: inherit;
-          box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 .sr-only {
@@ -264,7 +264,7 @@ html {
   padding: 0;
   white-space: nowrap;
   -webkit-clip-path: inset(100%);
-          clip-path: inset(100%);
+  clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
@@ -343,7 +343,12 @@ h3 {
 }
 
 .resumeBackgroundColor h3::after {
-  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  background-image: -moz-linear-gradient(
+    left,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
   position: absolute;
   left: 0;
   right: 0;
@@ -355,7 +360,12 @@ h3 {
 }
 
 #contact h3::after {
-  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  background-image: -moz-linear-gradient(
+    left,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
   position: absolute;
   left: 0;
   right: 0;
@@ -408,11 +418,11 @@ li {
   -webkit-transition: 0.5s all ease-in-out;
   transition: 0.5s all ease-in-out;
   -webkit-transform: translateY(20px);
-          transform: translateY(20px);
+  transform: translateY(20px);
   padding: 5%;
   max-width: 950px;
   -webkit-box-shadow: 0px 10px 20px #cacaca;
-          box-shadow: 0px 10px 20px #cacaca;
+  box-shadow: 0px 10px 20px #cacaca;
   margin-bottom: 10%;
 }
 
@@ -424,7 +434,7 @@ li {
 .aboutMeCard a {
   text-decoration: none;
   -webkit-transform: scale(0.5, 0.5);
-          transform: scale(0.5, 0.5);
+  transform: scale(0.5, 0.5);
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
@@ -433,7 +443,7 @@ li {
   opacity: 1;
   visibility: visible;
   -webkit-transform: translateY(0px);
-          transform: translateY(0px);
+  transform: translateY(0px);
 }
 
 .aboutMeSection section {
@@ -445,9 +455,10 @@ li {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
   width: 100%;
+  margin-top: 8%;
 }
 
 .aboutMeCard li {
@@ -473,14 +484,14 @@ li {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .aboutMeCard button {
@@ -531,7 +542,7 @@ button {
 button:hover {
   position: relative;
   -webkit-box-shadow: 0px 10px 50px #cacaca;
-          box-shadow: 0px 10px 50px #cacaca;
+  box-shadow: 0px 10px 50px #cacaca;
   bottom: 2px;
 }
 
@@ -579,11 +590,11 @@ button:hover {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
   -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
 }
 
 .buttonFlexContainer a button {
@@ -595,7 +606,7 @@ button:hover {
 .buttonFlexContainer button:hover {
   background-color: #756d20;
   -webkit-box-shadow: rgba(255, 255, 255, 0);
-          box-shadow: rgba(255, 255, 255, 0);
+  box-shadow: rgba(255, 255, 255, 0);
 }
 
 .contactCard {
@@ -613,10 +624,10 @@ button:hover {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   text-decoration: none;
 }
 
@@ -651,16 +662,16 @@ button:hover {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   font-size: 35px;
 }
 
@@ -672,14 +683,14 @@ button:hover {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   color: #000000;
   font-size: 28px;
   margin-top: 10%;
@@ -696,11 +707,11 @@ header {
   background-size: cover;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 nav {
@@ -713,18 +724,18 @@ nav {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   z-index: 1;
   height: 10vh;
   -webkit-box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.459);
-          box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.459);
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.459);
 }
 
 nav ul {
@@ -733,8 +744,8 @@ nav ul {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
   margin-right: 5%;
   margin-left: 5%;
 }
@@ -746,7 +757,7 @@ nav li {
 nav a {
   text-decoration: none;
   -webkit-transform: scale(0.8, 0.8);
-          transform: scale(0.8, 0.8);
+  transform: scale(0.8, 0.8);
   -webkit-transition: all 0.5s linear;
   transition: all 0.5s linear;
 }
@@ -768,7 +779,7 @@ header p {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 80px;
   font-family: "Josefin Sans", sans-serif;
   font-weight: normal;
   width: 40%;
@@ -778,6 +789,42 @@ header p,
 h1 {
   color: #ffffff;
   margin-left: 2%;
+}
+
+#sec {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 3px;
+}
+
+@-webkit-keyframes border {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 90%;
+  }
+}
+
+#sec:after {
+  content: "";
+  display: block;
+  margin: auto;
+  height: 60px;
+  width: 0px;
+  background: blue;
+  -webkit-animation-name: border;
+  /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s;
+  /* Safari 4.0 - 8.0 */
+  -webkit-animation-fill-mode: forwards;
+  /* Safari 4.0 - 8.0 */
+  animation-name: border;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+  animation-fill-mode: forwards;
 }
 
 .aboutMeHeader img {
@@ -791,10 +838,10 @@ h1 {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .skillsCard {
@@ -810,10 +857,10 @@ h1 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .skillsCard i {
@@ -823,8 +870,8 @@ h1 {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .skillsCard li {
@@ -837,11 +884,11 @@ h1 {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin: 10px;
   padding: 5%;
   -webkit-transition: all 0.2s linear;
@@ -854,7 +901,7 @@ h1 {
 
 .skillsCard li:hover {
   -webkit-box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.459);
-          box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.459);
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.459);
 }
 
 .skillsSectionWhole h4 {
@@ -900,14 +947,14 @@ h1 {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
   border: 10px solid #f0eeee;
   color: #6e7373;
   -webkit-transition: all 0.5s ease-in-out;
@@ -944,7 +991,7 @@ h1 {
 .resumeCard:hover {
   position: relative;
   -webkit-box-shadow: 0px 10px 20px #cacaca;
-          box-shadow: 0px 10px 20px #cacaca;
+  box-shadow: 0px 10px 20px #cacaca;
   bottom: 2px;
 }
 
@@ -978,14 +1025,14 @@ h1 {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   border: 1px solid #f0eeee;
   color: #6e7373;
   -webkit-transition: all 0.5s ease-in-out;
@@ -997,7 +1044,7 @@ h1 {
 .blogCard:hover {
   position: relative;
   -webkit-box-shadow: 0px 10px 20px #cacaca;
-          box-shadow: 0px 10px 20px #cacaca;
+  box-shadow: 0px 10px 20px #cacaca;
   bottom: 2px;
 }
 
@@ -1029,25 +1076,30 @@ h1 {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   border: 10px solid #f0eeee;
   color: #6e7373;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   bottom: 0;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin: 2%;
   margin-bottom: 8%;
 }
 
 .videoSection h3::after {
-  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  background-image: -moz-linear-gradient(
+    left,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
   position: absolute;
   left: 0;
   right: 0;
@@ -1065,8 +1117,8 @@ h1 {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
   .resumeSectionHalf {
     width: 100%;
@@ -1080,8 +1132,8 @@ h1 {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
   .blogCard {
     padding: 10%;
@@ -1092,8 +1144,8 @@ h1 {
   .contact .flexIcon {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
   .contactCardTwo:hover {
     background-position: top;
@@ -1111,14 +1163,14 @@ h1 {
   .videoFlexContainer {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
   iframe {
     width: 100%;

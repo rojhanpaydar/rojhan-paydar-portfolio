@@ -1,6 +1,5 @@
 .skillsSectionWhole {
   width: 100%;
-  // added below
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -11,7 +10,6 @@
   margin: auto;
   padding: 5%;
   margin-bottom: 5%;
-  //   transition: all 0.5s ease-in-out;
   bottom: 0;
   border: 1px solid $grey;
   color: $paragraphColor;

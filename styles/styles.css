@@ -317,7 +317,7 @@ a:hover,
 a:focus,
 a:focus-within,
 a:active {
-  color: #a79b30;
+  color: #A9BD93;
   cursor: pointer;
 }
 
@@ -425,8 +425,8 @@ li {
   text-decoration: none;
   -webkit-transform: scale(0.5, 0.5);
           transform: scale(0.5, 0.5);
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .aboutMeCardAppear {
@@ -486,7 +486,7 @@ li {
 
 .aboutMeCard button {
   font-size: 40px;
-  background-color: #756d20;
+  background-color: #A9BD93;
   padding: 3%;
   text-transform: none;
 }
@@ -523,8 +523,8 @@ button {
   border-radius: 8px;
   margin-top: 5%;
   cursor: pointer;
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
   bottom: 0;
   background-color: #172f1f;
 }
@@ -537,8 +537,7 @@ button:hover {
 }
 
 .projectBackground {
-  background-image: url("../assets/background_new.jpg");
-  background-position: center;
+  background-color: #A9BD93;
 }
 
 .project li {
@@ -590,11 +589,11 @@ button:hover {
 .buttonFlexContainer a button {
   margin-top: 20%;
   padding: 10%;
-  background-color: #a79b30;
+  background-color: #A9BD93;
 }
 
 .buttonFlexContainer button:hover {
-  background-color: #756d20;
+  background-color: #A9BD93;
   -webkit-box-shadow: rgba(255, 255, 255, 0);
           box-shadow: rgba(255, 255, 255, 0);
 }
@@ -622,7 +621,7 @@ button:hover {
 }
 
 .contactCard:hover {
-  color: #756d20;
+  color: #A9BD93;
 }
 
 .contactCardOne:hover {
@@ -748,8 +747,8 @@ nav a {
   text-decoration: none;
   -webkit-transform: scale(0.8, 0.8);
           transform: scale(0.8, 0.8);
-  -webkit-transition: all 0.5s linear;
-  transition: all 0.5s linear;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
 }
 
 nav a li {
@@ -854,7 +853,7 @@ h1 {
 }
 
 .skillsCard i {
-  color: #a79b30;
+  color: #A9BD93;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1001,7 +1000,7 @@ h1 {
 }
 
 .blogSection a:hover {
-  background-color: #a79b30;
+  background-color: #A9BD93;
   color: #ffffff;
 }
 
@@ -1039,7 +1038,7 @@ h1 {
 }
 
 .videoSection {
-  background: url("../assets/background_new.jpg") repeat left;
+  background-color: #A9BD93;
 }
 
 .videoSection h3 {
